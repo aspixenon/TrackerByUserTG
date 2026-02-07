@@ -1,0 +1,6 @@
+telethon==1.33.5
+aiogram==3.3.0
+matplotlib==3.8.2
+rich==13.7.0
+pillow==10.1.0
+qrcode==7.4.2

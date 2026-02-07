@@ -1,0 +1,12 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Specify encoding for text files
+*.md text encoding=UTF-8
+*.txt text encoding=UTF-8
+*.py text encoding=UTF-8
+*.json text encoding=UTF-8
+*.env text encoding=UTF-8
+
+# Preserve line endings for specific files
+*.bat text eol=crlf
