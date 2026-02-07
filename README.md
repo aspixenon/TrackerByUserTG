@@ -50,27 +50,31 @@
 
 ### 2. Клонирование репозитория
 
-git clone [https://github.com/aspixenon/TrackerByUserTG.git](https://github.com/aspixenon/TrackerByUserTG.git)
-cd TrackerByUserTG
+*git clone [https://github.com/aspixenon/TrackerByUserTG.git](https://github.com/aspixenon/TrackerByUserTG.git)
+*cd TrackerByUserTG
+
 3. Настройка окружения
+4. 
 Создайте файл .env (или отредактируйте переменные в коде) и добавьте свои данные:
 
 Фрагмент кода
 
-API_ID=ваш_id
-API_HASH=ваш_hash
+*API_ID=ваш_id
+*API_HASH=ваш_hash
+
 4. Установка зависимостей
+*pip install -r requirements.txt
 
-pip install -r requirements.txt
-5. Запуск
+6. Запуск
+*python main.py
 
-python main.py
 📂 Структура проекта
-main.py — точка входа, инициализация клиента и обработка событий.
 
-config.py — настройки и конфигурационные данные.
+*main.py — точка входа, инициализация клиента и обработка событий.
 
-sessions/ — папка для хранения файлов сессий .session.
+*config.py — настройки и конфигурационные данные.
+
+*sessions/ — папка для хранения файлов сессий .session.
 
 💡 Как это работает?
 Бот использует систему событий UserUpdate. Как только статус отслеживаемого контакта меняется, срабатывает триггер:
